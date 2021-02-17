@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Going to build cpp file\n"
+echo "Going to build cpp file"
 g++ cpptest.cpp
 ls -l 
-echo "Done building\n"
+echo "Done building"
