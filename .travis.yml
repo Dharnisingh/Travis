@@ -1,6 +1,8 @@
 language: bash
 
 script: 
+  on:
+    tags: true
   - chmod u+x test.sh
   - bash test.sh
   - echo $TRAVIS_TAG
