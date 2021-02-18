@@ -3,4 +3,4 @@ language: bash
 script: 
   - chmod u+x test.sh
   - bash test.sh
-  - echo "Git Tag name: $TRAVIS_TAG"
+  - echo "Git Tag name: ${TRAVIS_TAG}"
