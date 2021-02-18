@@ -4,5 +4,6 @@ script:
   - chmod u+x test.sh
   - bash test.sh
   - echo "Printing ENV Variable"
+  - echo $MY_NAME
   - echo $TRAVIS_TAG
   - echo $TRAVIS_BRANCH
