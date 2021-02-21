@@ -1,5 +1,12 @@
 language: bash
 
+git:
+  clone: false
+
+install:
+  - git clone https://github.com/Dharnisingh/Travis.git /home/dharni/DD/repo
+  - cd /home/dharni/DD/repo
+
 script: 
   - chmod u+x test.sh
   - bash test.sh
