@@ -6,6 +6,7 @@ git:
 sudo: required
 
 install:
+  - sudo mkdir -p /home/dharni/DD/repo
   - git clone https://github.com/Dharnisingh/Travis.git /home/dharni/DD/repo
   - cd /home/dharni/DD/repo
 
