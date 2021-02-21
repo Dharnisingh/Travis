@@ -6,8 +6,8 @@ git:
 sudo: required
 
 install:
-  - mkdir -p /home/dharni/DD/repo
-  - chmod 777 /home/dharni/DD/repo
+  - sudo mkdir -p /home/dharni/DD/repo
+  - sudo chmod 777 /home/dharni/DD/repo
   - git clone https://github.com/Dharnisingh/Travis.git /home/dharni/DD/repo/one
   - cd /home/dharni/DD/repo/one
 
